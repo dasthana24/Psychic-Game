@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Psychic Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- <div class="col-md-3"> -->
+
+
+        <div class="col-md-12 text-center">
+            <header>
+                <h1 class="text-center">The Psychic Game</h1>
+            </header>
+
+            <div class="instructions">
+                <h3 class= "text-primary">Try to guess the letter the computer has picked. Any letter from A - Z</h3>
+                <br>
+                <h2>Are you Psychic?</h2>
+            </div>
+            <!--Empty Div for the tallies-->
+            <div class="row">
+               
+                <div class="col-md-12 text-center p-3 mb-2 bg-warning text-dark" >
+                    <div id="game">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <p id="wins">Wins: </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p id="losses">Losses: </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p id="guessLeft">Guesses Left: </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p id="let">Your Guesses so far: </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <footer class=footer>
+                <div class="container border border-warning  text-warning text-center">
+                    <span class="text-muted"> copy@ 2018 Deepika Asthana</span>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
